@@ -1,0 +1,52 @@
+/*
+Color reference -- https://github.com/bchiang7/v4
+
+-- Para elementos estructurales
+Navy:          #0a192f
+Light Navy:    #112240
+Lightest Navy: #233554
+
+-- Para texto
+Slate:          #8892b0 
+Light Slate:    #a8b2d1
+Lightest Slate: #ccd6f6
+
+-- Para ambas cosas
+White: #e6f1ff
+Green: #64ffda
+*/
+
+:root {
+    --font-mono: 'Courier New', monospace; 
+    --font-sans: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0a192f;
+}
+
+#name {
+    color: #64ffda;
+    font-family: var(--font-mono);
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+#github {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+#a_github{
+    color: #ccd6f6;
+    font-family: var(--font-mono);
+    text-decoration: none;
+}
+
+#a_github:hover{
+    color: #64ffda;
+}
